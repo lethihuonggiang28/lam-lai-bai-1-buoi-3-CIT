@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+  }
+  table, th, td {
+    text-align: center;
+    border: 2px solid #1a1918;
+    vertical-align: middle;
+    padding: 77px;
+    font-size: 20px;
+    border-collapse: collapse;
+    border-color: rgba(13, 1, 1, 0.089)
+  }
+  td.sunday {
+    background-color: #ffffff; 
+    color: rgb(237, 12, 12);
+  }
+  td.sat {
+    background-color: #ffffff; 
+    color: rgb(27, 12, 237);
+  }
+  th.sat {
+    background-color: #ffffff; 
+    color: rgb(27, 12, 237);
+    border:none;
+  }
+  th.Sat {
+    background-color: #1506f0; 
+    color: rgb(246, 246, 248);
+    border-color: rgb(255, 255, 255)
+  }
+  th.sunday {
+    background-color: #ffffff; 
+    color: rgb(237, 12, 12);
+    border:none;
+  }
+  th.Sunday {
+    background-color: #f60707; 
+    color: rgb(251, 250, 250);
+    border-color: rgb(255, 255, 255)
+  }
+  th.thutrongtuan {
+    background-color: #fea73b; 
+    color: rgb(251, 250, 250);
+    border-color: rgb(255, 255, 255)
+  }
+  th.vien1 {
+    border:none;
+  }
