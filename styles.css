@@ -3,14 +3,17 @@ h1{
     color: blue;
     font-size: 50px;
   }
-  table, th, td {
-    text-align: center;
-    border: 2px solid #1a1918;
-    vertical-align: middle;
-    padding: 77px;
-    font-size: 20px;
+  table {
+    width: 100%;
     border-collapse: collapse;
-    border-color: rgba(13, 1, 1, 0.089)
+  }
+  th, td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 40px;
+    font-size: 40px;
+    border-collapse: collapse;
+    border: 2px solid #1a1918;
   }
   td.sunday {
     background-color: #ffffff; 
@@ -46,5 +49,10 @@ h1{
     border-color: rgb(255, 255, 255)
   }
   th.vien1 {
-    border:none;
+    border-left: none;  
+    border-right: none; 
+    border-bottom: 2px solid black; 
+  }
+  td.sub {
+    font-size: 5px;
   }
